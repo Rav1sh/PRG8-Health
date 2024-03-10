@@ -13,6 +13,7 @@ Maak vervolgens een .env bestand in de server folder
 Vol vervolgens de volgende informatie in:
 
 OPENAI_API_TYPE=
+
 OPENAI_API_VERSION=
 OPENAI_API_BASE=
 AZURE_OPENAI_API_KEY=
