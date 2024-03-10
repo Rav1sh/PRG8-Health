@@ -33,7 +33,9 @@ PORT=
 
 # Applicatie runnen
 Om de applicatie nu te runnen zorg ervoor dat je in de server folder zit en het volgende typt
+
 npm run dev
+
 Dit runt vervolgens node --env-file=.env --watch server.js
 
-Nu kan je de index.html bekijken en uitproberen
+Nu kan je de index.html bekijken en de applicatie uitproberen
