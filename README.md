@@ -15,11 +15,17 @@ Vol vervolgens de volgende informatie in:
 OPENAI_API_TYPE=
 
 OPENAI_API_VERSION=
+
 OPENAI_API_BASE=
+
 AZURE_OPENAI_API_KEY=
+
 DEPLOYMENT_NAME=
+
 ENGINE_NAME=
+
 INSTANCE_NAME=
+
 PORT=
 
 # Applicatie runnen
