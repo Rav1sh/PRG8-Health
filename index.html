@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <h1>❓ Ask Your Question</h1>
+        <input type="text" id="questionInput" placeholder="Your question here...">
+        <input type="text" id="systemInput" placeholder="Type here the personality...">
+        <button id="askButton">Ask</button>
+        <div id="answer"></div>
+    </div>
+
+    <div class="container">
+        <h1>💡 Tips and Tricks</h1>
+        <div id="player"></div>
+    </div>
+    <div class="container">
+        <h1>🥗 Tip of the day</h1>
+        <h3 id="joke"></h3>
+    </div>
+
+    <div class="container">
+        <h1>🧾 History</h1>
+        <div id="chatHistory"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

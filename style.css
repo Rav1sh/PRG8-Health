@@ -1,0 +1,63 @@
+body {
+    font-family: 'Poppins',Arial, sans-serif;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+input[type="text"],
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #bb86fc;
+    color: #1c1c1c;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#answer {
+    margin-top: 20px;
+    color: #fff;
+}
+
+#chatHistory {
+    margin-bottom: 60px;
+    color: #868686;
+}
+
+#joke {
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color: #868686;
+    margin-bottom: 10px;
+}
+
+#askButton {
+    font-weight: 500;
+}
