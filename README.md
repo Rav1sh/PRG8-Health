@@ -3,9 +3,13 @@ Zorg ervoor dat je in de server folder bent
 Vervolgens installeer het volgende vanuit je terminal:
 
 npm install @langchain/openai
+
 npm install langchain   
+
 npm install express
+
 npm install cors
+
 npm install dotenv
 
 # API Key
