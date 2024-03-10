@@ -13,8 +13,7 @@ npm install cors
 npm install dotenv
 
 # API Key
-Maak vervolgens een .env bestand in de server folder
-Vol vervolgens de volgende informatie in:
+Maak vervolgens een .env bestand in de server folder en vul vervolgens de volgende informatie in:
 
 OPENAI_API_TYPE=
 
