@@ -1,4 +1,4 @@
-#Installatie
+# Installatie
 Zorg ervoor dat je in de server folder bent
 Vervolgens installeer het volgende vanuit je terminal:
 
@@ -8,7 +8,7 @@ npm install express
 npm install cors
 npm install dotenv
 
-#API Key
+# API Key
 Maak vervolgens een .env bestand in de server folder
 Vol vervolgens de volgende informatie in:
 
@@ -21,7 +21,7 @@ ENGINE_NAME=
 INSTANCE_NAME=
 PORT=
 
-#Applicatie runnen
+# Applicatie runnen
 Om de applicatie nu te runnen zorg ervoor dat je in de server folder zit en het volgende typt
 npm run dev
 Dit runt vervolgens node --env-file=.env --watch server.js
